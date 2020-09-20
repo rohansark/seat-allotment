@@ -1,0 +1,118 @@
+.lists{
+    text-align: center;
+    margin: 2em 15em;
+    border: black;
+    border-width: 2px;
+    border-style: double;
+
+    
+}
+
+h4{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    background-color: skyblue;
+    background: linear-gradient(skyblue,blue);
+    border: black;
+    border-width: 2px;
+    border-style: ridge;
+    margin: 10px 230px ;
+    padding: 20px;
+}
+
+table{
+    border: black;
+    border-width: 2px;
+    border-style: ridge;
+    margin: 10px 50px;
+    padding: 2px;
+    background-color: blaCK;
+
+}
+td{
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 2px;
+    height: 6px;
+    background-color: blanchedalmond;
+    font-weight: bolder;
+
+}
+
+#notice{
+    position: absolute;
+    background:linear-gradient(180deg,blue,rgb(20, 20, 20));
+    padding: 10px;
+    margin: 0.5em;
+    text-align: center;
+    border-radius: 5px;
+    color:white;
+    text-shadow: 2px 2px 5px black;
+    border-style: solid;
+    box-shadow: 2px 2px 5px black;
+    line-height: 1.4em;
+    text-align: center;
+}
+#notice h3{
+    padding-bottom: 10px;
+    border-bottom: dotted;
+}
+#notice ul li{
+    list-style: none;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding: 0.2px;
+}
+#notice a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+#notice a:hover{
+    color: yellow;
+    border-radius: 5px;
+}
+body{
+    background-image: url(./images-graduates-are-celebrating-graduation-put-hand-up_28283-7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 220vh;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1;
+    background-attachment: fixed;
+}
+#navbar {
+    background-color: rgb(8, 8, 122);
+    color: #fff;
+    top:0;
+    padding: 0.9rem;
+}
+#navbar ul{
+    display:flex;
+    list-style: none;
+}
+#navbar ul li a{
+    color: #fff;
+    padding: 0.25rem;
+    margin: 0 0.25rem;
+    text-decoration: none;
+    margin-left: 130px;
+    font-size: large;
+    transition:all 0.4s ease-in;
+}
+#navbar ul li a:hover{
+    background:rgb(18, 135, 212)
+
+}
+
+footer{
+    position: relative;
+    text-align: center;
+    background-color:  #050788;
+    padding: 12px;
+    color:white;
+}
